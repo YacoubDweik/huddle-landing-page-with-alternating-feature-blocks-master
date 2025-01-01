@@ -282,6 +282,17 @@ ul.footer__icons-list {
   .container__main-wrapper {
     background-image: url("./images/bg-hero-desktop.svg");
   }
+  .intro__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--xl);
+    text-align: left;
+  }
+  .body__link {
+    width: fit-content;
+    margin: 0;
+  }
   .container__section-box:not(.action) {
     flex-direction: row;
     justify-content: space-between;
